@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors lizhi02
+ * @date    2016-10-26
+ */
+body{background: #ededed;}
+.m-serverlist{background: #3a3a3a;}
+.m-serverlist .m-server-hd h3{color: #fff;}
+.m-serverlist .quick{border-color: #ededed;}
+.m-serverlist .quick span,.m-serverlist .slist a{color: #fff;}
+.m-serverlist .quick input{border-color:#e6e6e6;background: #f6f6f6;color: #777;}
+.m-serverlist .quick .enter{background: #d5af4f;}
+.m-serverlist .quick .enter:hover{background: #ebc460;}
+.m-serverlist .slist a:hover{color: #cfae69;}
+.m-serverlist .slist .date{color: #b8b8b8;}
+
+.m-news{background: #fff;}
+.m-news-hd{border-color: #ededed;}
+.m-news-hd h3{color: #333;}
+.m-news-bd h4 a{color: #b89663;}
+.m-news-bd .newslist .n-tag{color: #999;}
+.m-news-bd .newslist .n-tit{color: #777;}
+.m-news-bd .newslist .n-tit:hover{color: #cfae69;}
+.m-news-bd .newslist .n-date{color: #b8b8b8;}
+
+.m-channels .channelist li{background: #3a3a3a;}
+.m-channels a{color: #fff;}
+.m-channels a:hover{background: #d5af4f;color: #fff;}
+
+.data-item .data-cont{background: #fff;}
+.data-item .data-tit{background: url(../images/data_tit_bg_light.jpg) no-repeat;}
+.data-item .data-tit .text{color: #333;display: none;}
+.data-item .datalist a,.data-item .more{color: #555;}
+.data-item .datalist a:hover,.data-item .more:hover{color: #cfae69;}
+
+
+.m-strategy{background: #fff;}
+.m-strategy-hd h3{color: #333;}
+.m-strategy-bd .strategylist .n-tag{color: #999;}
+.m-strategy-bd .strategylist .n-tit{color: #777;}
+.m-strategy-bd .strategylist .n-tit:hover{color: #cfae69;}
+.m-strategy-bd .strategylist .n-date{color: #b8b8b8;}
+.m-strategy .strategylist li{border-color: #f0f0f0;}
+
+/**文章列表页**/
+.arc-tab{border-color: #ededed;}
+.arc-tab a{color: #282423;}
+.arc-tab a.active{color: #d63135;border-color: #d63135;}
+.arclist .n-tag{color: #999;}
+.arclist .n-tag:hover{color: #555;}
+.arclist .n-tit{color: #333;}
+.arclist .n-tit:hover{color: #d63135;}
+.arclist .n-date{color: #b8b8b8;}
+
+.pages a,.pages .disabled,.pages .current{border-color:#ccc;background: #fafafa;color: #333;}
+.pages .disabled{color: #c2c2c2;border-color: #ccc;}
+.pages .current,.pages a:hover{border-color:#e43a3a;color: #e43a3a;background: #fafafa;}
+
+/**文章内容页**/
+.g-main-bd{background: #fff;}
+.arc-tit{border-color: #ededed;}
+.arc-tit h2{color: #333;}
+.arc-tit .subdesc{color: #999;}
+.arc-cont{color: #333;}
+.arc-wrap .btn-back{border-color: #dfdfdf;color: #777;}
+
+/**选服页**/
+.g-server-main .welc{color: #333;}
+.g-server-main .welc a{color: #777;}
+.g-server-main .server-hd{background: #d6d6d6;color: #333;}
+.server-tabs,.server-tabs a{border-color: #ededed;color: #ccc;}
+.server-tabs a.active{color: #333;}
+.allserver .quick span{color: #777;}
+.allserver .quick input{border-color:#e6e6e6;background: #f6f6f6;color: #777;}
+.allserver .quick .enter{background: #d5af4f;}
+.allserver .quick .enter:hover{background: #ebc460;}
+
+.serverlist::-webkit-scrollbar-thumb{background-color:#bcbcbc; -webkit-border-radius:4px; }/*---滚动条样式--*/
+.serverlist::-webkit-scrollbar-thumb:hover{background-color:#d0d0d0;}/*---鼠标滑过滚动条样式--*/  
+.serverlist::-webkit-scrollbar{width:8px;}/*---滚动条大小--*/    
+.serverlist::-webkit-scrollbar-track-piece{background-color:#f1f1f1; -webkit-border-radius:4px; }/*---滚动条滑轨背景样式--*/  
+
+.serverlist{scrollbar-arrow-color: #505050; /*三角箭头的颜色*/
+scrollbar-face-color: #e0dddd;
+scrollbar-3dlight-color: #e0dddd; 
+scrollbar-highlight-color: #e0dddd;
+scrollbar-shadow-color: #e0dddd;
+scrollbar-darkshadow-color: #f1f1f1; 
+scrollbar-track-color: #f1f1f1; /*立体滚动条背景颜色*/}
+
+/**新手卡页面**/
+.newser-card-tit,.getcard-box,.card-cont,.get-steps-tit,.get-steps-cont{color: #333;}
+.newser-card-wrap .hl{color: #777;}
+.newser-card-wrap .btn-style{background: #d5af4f;}
+.newser-card-wrap .btn-style:hover{background: #e3bb57}
